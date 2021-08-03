@@ -57,3 +57,9 @@ body {
     /*   text-align: center; */
     color: white;
   }
+  .info h1 {
+      font-size: 3em;
+  }
+  .info p {
+      width: 70%;
+  }
