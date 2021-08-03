@@ -90,10 +90,15 @@ body {
 }
 .contact ul {
     list-style: none;
+   
 }
 .contact li {
     padding-bottom: 5px;
 }
 .contact a {
     text-decoration: none;
+}
+.contact-header {
+    margin-top: 0;
+    text-align: center;
 }
