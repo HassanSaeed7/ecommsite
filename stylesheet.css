@@ -60,9 +60,10 @@ body {
     color: white;
   }
   .info h1 {
-      font-size: 3em;
+      font-size: 3.5em;
       margin-bottom: 3%;
   }
   .info p {
       width: 70%;
+      font-size: 1.2em;
   }
