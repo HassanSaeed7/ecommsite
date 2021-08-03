@@ -44,7 +44,8 @@ nav {
     color: white;
     font-size: 18px;
     text-decoration: none;
-    padding: 9px 15px;
+    padding: 15px 15px;
+    border-radius: 4px;
     transition: all 0.3s ease;
 }
 .navbar-links a:hover {
@@ -56,7 +57,7 @@ nav {
     background: #242526;
     width: 180px;
     line-height: 45px;
-    top: 85px;
+    top: 65px;
     opacity: 0;
     visibility: hidden;
     box-shadow: 0 6px 10px rgba(0,0,0,0.15);
@@ -64,10 +65,17 @@ nav {
 .navbar-links li:hover .dropdown-account,
 .navbar-links li:hover .mega-box{
   transition: all 0.3s ease;
-  top: 70px;
+  top: 65px;
   opacity: 1;
   visibility: visible;
 }
+.dropdown-account li a{
+    width: 100%;
+    display: table;
+    padding: 0 15px 0 15px;
+    font-weight: 400;
+    border-radius: 0px;
+  }
 .title a {
     color: #f2f2f2;
     font-size: 30px;
@@ -132,7 +140,7 @@ nav {
     width: 80%;
 }
 .content-form input {
-    width: 120%;
+    width: 80%;
     padding: 10px 30px;
     margin: 5px 0;
 }
