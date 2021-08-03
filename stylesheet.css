@@ -15,33 +15,64 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 }
-.navbar {
-    display: flex;
-    justify-content: flex-end;
-    justify-content: space-between;
-    align-items: center;
+nav {
     background-color: rgb(25,25,25);
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    z-index: 99;
 }
-.navbar-links ul {
-
+.navbar {
+    position: relative;
+    max-width: 1300px;
+    padding: 0px 30px;
+    height: 70px;
+    line-height: 70px;
+    margin: auto;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-links {
+    display: inline-flex;
 }
 .navbar-links li {
     list-style: none;
 }
-.navbar-links a {
+.navbar-links li a {
     color: white;
+    font-size: 18px;
     text-decoration: none;
-    padding: 1em;
+    padding: 9px 15px;
+    transition: all 0.3s ease;
 }
 .navbar-links a:hover {
     background-color: white;
     color: black;
 }
-.title {
-    margin-left: 10px;
-    color: white;
-    font-size: 2em;
+.navbar-links .dropdown-account {
+    position: absolute;
+    background: #242526;
+    width: 180px;
+    line-height: 45px;
+    top: 85px;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+.navbar-links li:hover .dropdown-account,
+.navbar-links li:hover .mega-box{
+  transition: all 0.3s ease;
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+}
+.title a {
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
 }
 #hero {
     width: 100%;
@@ -101,17 +132,21 @@ body {
     width: 80%;
 }
 .content-form input {
-    width: 100%;
+    width: 120%;
     padding: 10px 30px;
     margin: 5px 0;
 }
-.content-form button {
-    background-color: white;
-    border-radius: 4px;
-    padding: 7px 30px;
+.btn {
+    margin: 15px 0;
+    padding: 14px 60px;
+    background:white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
     line-height: 100%;
-    opacity: 90%;
-}
+    border-radius: 3px;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+  }
 .btn.clicked {
     text-decoration: none;
 }
