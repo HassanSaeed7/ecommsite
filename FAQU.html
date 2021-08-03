@@ -11,7 +11,7 @@
 <body>
 <nav>
                 <div class="navbar">
-                <div class="title"><a href="#">Glassic.</a></div>
+                <div class="title"><a href="ecomm.html">Glassic.</a></div>
                 <ul class="navbar-links">
                   <li><a href="#">Products</a>
                 <div class="menu-sub">
@@ -168,5 +168,16 @@
             
             
             </div>
+
+
+<script>
+    const faq = document.getElementsByClassName('contentBx');
+
+    for (i = 0; i<faq.length; i++){
+        faq[i].addEventListener('click', function(){
+            this.classList.toggle('active')
+        }
+    }
+</script>
 </body>
 </html>
