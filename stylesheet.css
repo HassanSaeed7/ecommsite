@@ -180,3 +180,8 @@ nav {
       margin: auto;
       border-bottom: 1px solid;
   }
+  .about-head {
+      font-size: 2em;
+      text-align: center;
+      margin-top: 5%;
+  }
