@@ -40,7 +40,7 @@ nav {
 .navbar-links li {
     list-style: none;
 }
-.navbar-links li a {
+nav .navbar-links li a {
     color: white;
     font-size: 18px;
     text-decoration: none;
@@ -62,20 +62,19 @@ nav {
     visibility: hidden;
     box-shadow: 0 6px 10px rgba(0,0,0,0.15);
 }
-.navbar-links li:hover .dropdown-account,
-.navbar-links li:hover .mega-box{
+.navbar-links li:hover .dropdown-account {
   transition: all 0.3s ease;
   top: 65px;
   opacity: 1;
   visibility: visible;
 }
-.dropdown-account li a{
-    width: 100%;
-    display: table;
+.navbar-links li a .dropdown-account{
+    width: 80%;
+    display: block;
     padding: 0;
     font-weight: 400;
     border-radius: 0px;
-  }
+}
 .title a {
     color: #f2f2f2;
     font-size: 30px;
@@ -97,22 +96,22 @@ nav {
     justify-content: left;
     /*   text-align: center; */
     color: white;
-  }
-  .info h1 {
+}
+.info h1 {
       font-size: 3.5em;
       margin-bottom: 3%;
-  }
-  .info p {
+}
+.info p {
       width: 70%;
       font-size: 1.2em;
-  }
-  .info a {
+}
+.info a {
       text-decoration: none;
       border-radius: 5px;
       background-color: white;
       display: inline-block;
       padding: 0.5em 2em;
-  }
+}
 .contact {
       display: flex;
       justify-content: space-evenly;
@@ -188,12 +187,27 @@ nav {
   }
 .menu-sub {
     position: absolute;
-    justify-content: center;
+    left: 0;
+    width: 100%;
+    max-height: 580px;
+    top: 85px;
+    opacity: 0;
     background: rgb(25,25,25);
-    width: 50%;
     visibility: hidden;
 }
-nav li .menu-sub:hover {
+.navbar-links li:hover .menu-sub{
+    transition: all 0.3s ease;
+    top: 70px;
+    opacity: 1;
     visibility: visible;
-    display: block;
+}
+.menu-sub .content{
+    padding: 20px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .category {
+    color: white;
+    text-align: center;
 }
