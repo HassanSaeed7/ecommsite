@@ -56,7 +56,8 @@ nav .navbar-links li a {
     position: absolute;
     background: #242526;
     width: 180px;
-    line-height: 45px;
+    display: block;
+    line-height: 60px;
     top: 65px;
     opacity: 0;
     visibility: hidden;
