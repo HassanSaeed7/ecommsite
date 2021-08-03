@@ -13,10 +13,16 @@ body {
     transform-origin: 0 0;
 }
 }
-.navbar {
-    background-color: rgb(128, 43, 43);
+.navbar ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     
+}
+.navbar li {
+    margin-left: 5%;
+    list-style: none;
+}
+.navbar a {
+    text-decoration: none;
 }
