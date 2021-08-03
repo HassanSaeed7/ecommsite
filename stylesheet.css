@@ -98,4 +98,31 @@ body {
 }
 .content-form {
     text-align: end;
+    width: 80%;
 }
+.content-form input {
+    width: 100%;
+    padding: 10px 30px;
+    margin: 5px 0;
+}
+.content-form button {
+    background-color: white;
+    border-radius: 4px;
+    padding: 7px 30px;
+    line-height: 100%;
+    opacity: 90%;
+}
+.btn.clicked {
+    text-decoration: none;
+}
+.btn.raised {
+    box-shadow: 0 1px 2px #222;
+    transition: 
+      box-shadow 0.3s ease,
+      transform 0.3s ease;
+  }
+  
+.btn.raised:hover {
+    box-shadow: 0 15px 7px -7px rgb(99, 90, 90);
+    transform: translateY(-2px)
+  }
