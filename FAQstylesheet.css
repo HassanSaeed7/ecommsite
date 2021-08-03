@@ -1,4 +1,7 @@
 .faq {
     max-width:800px;
 }
-.faq {}
+.faq .contentBx {
+    position: relative;
+    margin: 10px 15px;
+}
