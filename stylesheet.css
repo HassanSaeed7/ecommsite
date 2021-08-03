@@ -244,5 +244,42 @@ nav .navbar-links li a {
 .faq {
     padding-top: 5%;
     margin: auto;
-    width: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+
+}
+.faq h2 {
+    font-size: 3em;
+}
+hr {
+    margin: 1rem 0;
+}
+details {
+    padding: 0rem;
+}
+details > summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(25,25,25);
+    color: white;
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}
+details > summary::after {
+   content: ">";
+   display: inline-flex;
+   translate: transform 0.3s ease;
+}
+details[open] > summary::after {
+    transform: rotate(90deg);
+}
+details > .faq-answer {
+    padding: 5%;
 }
