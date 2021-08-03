@@ -118,7 +118,7 @@ nav .navbar-links li a {
       align-items: center;
       background-color: rgb(25,25,25);
       width: 100%;
-      height: 30vh;
+      height: 40vh;
       color: white;
   }
 .contact ul {
@@ -126,15 +126,26 @@ nav .navbar-links li a {
    
 }
 .contact li {
-    padding-bottom: 5px;
+    padding-bottom: 2px;
+    padding: 5%;
+    width: 100%;
+
 }
-.contact a {
+.contact li a {
     text-decoration: none;
     color: white;
+}
+.contact li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+.contact p {
+    text-align: center;
 }
 .contact-header {
     margin-bottom: 1%;
     text-align: center;
+
 }
 .content-form {
     text-align: center;
