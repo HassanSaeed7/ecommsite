@@ -140,6 +140,7 @@ nav {
 .content-form {
     text-align: center;
     width: 100%;
+    margin: 2% 0;
 }
 .content-form input {
     width: 80%;
@@ -185,3 +186,14 @@ nav {
       text-align: center;
       margin-top: 5%;
   }
+.menu-sub {
+    position: absolute;
+    justify-content: center;
+    background: rgb(25,25,25);
+    width: 50%;
+    visibility: hidden;
+}
+nav li .menu-sub:hover {
+    visibility: visible;
+    display: block;
+}
