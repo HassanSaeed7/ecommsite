@@ -72,7 +72,7 @@ nav {
 .dropdown-account li a{
     width: 100%;
     display: table;
-    padding: 0 15px 0 15px;
+    padding: 0;
     font-weight: 400;
     border-radius: 0px;
   }
@@ -117,9 +117,10 @@ nav {
       display: flex;
       justify-content: space-evenly;
       align-items: center;
-      background-color: aqua;
+      background-color: rgb(25,25,25);
       width: 100%;
       height: 30vh;
+      color: white;
   }
 .contact ul {
     list-style: none;
@@ -130,22 +131,23 @@ nav {
 }
 .contact a {
     text-decoration: none;
+    color: white;
 }
 .contact-header {
-    margin-top: 0;
+    margin-bottom: 1%;
     text-align: center;
 }
 .content-form {
-    text-align: end;
-    width: 80%;
+    text-align: center;
+    width: 100%;
 }
 .content-form input {
     width: 80%;
     padding: 10px 30px;
-    margin: 5px 0;
+    margin-bottom: 2%;
 }
 .btn {
-    margin: 15px 0;
+    margin: auto;
     padding: 14px 60px;
     background:white;
     text-transform: uppercase;
@@ -168,4 +170,8 @@ nav {
 .btn.raised:hover {
     box-shadow: 0 15px 7px -7px rgb(99, 90, 90);
     transform: translateY(-2px)
+  }
+  .copy {
+      bottom: 0;
+      right: 0;
   }
