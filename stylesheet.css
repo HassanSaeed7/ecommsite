@@ -226,3 +226,17 @@ nav .navbar-links li a {
     width: calc(25% - 30px);
     line-height: 45px;
   }
+.main h1{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.main h2{
+    text-align: start;
+    border-bottom: 1px solid black;
+    padding-top: 5%;
+}
+.main {
+      padding-top: 5%;
+      margin: auto;
+      width: 80%;
+  }
