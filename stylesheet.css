@@ -205,9 +205,13 @@ nav .navbar-links li a {
     padding: 20px 20px;
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
   .category {
     color: white;
     text-align: center;
 }
+.content .menu-col {
+    width: calc(25% - 30px);
+    line-height: 45px;
+  }
