@@ -150,9 +150,11 @@ nav .navbar-links li a {
     margin: 2% 0;
 }
 .content-form input {
-    width: 80%;
+    width: 60%;
     padding: 10px 30px;
     margin-bottom: 2%;
+    line-height: 100%;
+    font-size: 18px;
 }
 .btn {
     margin: auto;
