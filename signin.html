@@ -25,7 +25,7 @@
 </div>
 <div class="form-inner">
 <div class="sign-in">
-<form action="">
+<form action="#" class="login">
 <div class="field">
     <input type="text" id="username" class="username" placeholder="Email" required>
 </div>
@@ -34,8 +34,17 @@
     <input type="password" name="password" id="password" placeholder="Password" required>
 </div>
 
-<div class="field">
-    <button type="submit">Sign In</button>
+<div class="pass-link">
+    <a href="#">Forgot password?</a>
+</div>
+
+<div class="field btn">
+    <div class="btn-layer"></div>
+    <input type="submit" value="Login">
+</div>
+
+<div class="signup-link">
+    Not a member? <a href="">Signup now</a>
 </div>
 </form>
 </div>
@@ -65,5 +74,24 @@
 
 
 </div>
+<script>
+        const loginText = document.querySelector(".title-text .login");
+        const loginForm = document.querySelector("form.login");
+        const loginBtn = document.querySelector("label.login");
+        const signupBtn = document.querySelector("label.signup");
+        const signupLink = document.querySelector("form .signup-link a");
+        signupBtn.onclick = (()=>{
+          loginForm.style.marginLeft = "-50%";
+          loginText.style.marginLeft = "-50%";
+        });
+        loginBtn.onclick = (()=>{
+          loginForm.style.marginLeft = "0%";
+          loginText.style.marginLeft = "0%";
+        });
+        signupLink.onclick = (()=>{
+          signupBtn.click();
+          return false;
+        });
+     </script>
 </body>
 </html>
