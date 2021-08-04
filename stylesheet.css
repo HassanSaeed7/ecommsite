@@ -277,11 +277,3 @@ details[open] > summary::after {
 details > .faq-answer {
     padding: 5%;
 }
-.login-container {
-    overflow: hidden;
-    max-width: 390px;
-    background: #fff;
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
-}
