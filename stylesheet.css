@@ -95,7 +95,7 @@ nav .navbar-links li a {
     display: flex;
     align-items: center;
     justify-content: left;
-    /*   text-align: center; */
+    /*   text-align: center; ugly af*/
     color: white;
 }
 .info h1 {
@@ -120,7 +120,7 @@ nav .navbar-links li a {
     height: 40vh;
     color: white;
     text-align: center;
-
+    justify-content: space-evenly;
 }
 .contact-container {
     flex: 1;
