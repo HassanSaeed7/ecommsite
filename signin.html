@@ -11,19 +11,23 @@
 <body>
 
 <div class="login-container">
-<div class="login-title">Login</div>
+
+
+
 
 <div class="sign-in">
 <form action="">
-    <div class="field">
-    <input type="text" id="username" class="username" placeholder="Email">
-    </div>
-    <div class="field">
-    <input type="password" name="password" id="password" placeholder="Password">
-    </div>
-    <div class="field">
+<div class="field">
+    <input type="text" id="username" class="username" placeholder="Email" required>
+</div>
+
+<div class="field">
+    <input type="password" name="password" id="password" placeholder="Password" required>
+</div>
+
+<div class="field">
     <button type="submit">Sign In</button>
-    </div>
+</div>
 </form>
 </div>
 
@@ -31,12 +35,16 @@
 
 <form action="">
 <div class="field">
-    <input type="text" id="username" class="username" placeholder="Email">
+    <input type="text" id="username" class="username" placeholder="Email" required>
 </div>
 
 <div class="field">     
-<input type="password" name="password" id="password" placeholder="Password">
+    <input type="password" name="password" id="password" placeholder="Password" required>
  </div>  
+
+<div class="field">     
+    <input type="password" name="password" id="password" placeholder="Confirm Password" required>
+</div> 
 
  <div class="field">   
     <button type="submit">Sign In</button>
