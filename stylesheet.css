@@ -275,17 +275,29 @@ details > .faq-answer {
     padding: 5%;
 }
 .shop-container {
-    padding-top: 5%;
+    padding: 5%;
     height: 100vh;
     display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px;
 }
 .product {
-    border: 1px solid black;
-    width: 10%;
-    height: 30%;
-
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
 .product img {
     width: 50px;
     height: auto;
+}
+.shop-container a {
+    text-decoration: none;
+    color: black;
+    transition: ease 0.3s all;
+}
+ 
+.shop-container a:hover {
+    box-shadow: 10px 5px 5px black;
+    transform: translateY(-3px)
 }
