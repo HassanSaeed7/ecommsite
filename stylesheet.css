@@ -276,12 +276,9 @@ details > .faq-answer {
 }
 .shop-container {
     padding: 5%;
-    width: 100vw;
+    width: 80%;
     height: auto;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
-    background-color: rgb(99, 90, 90);
+
 }
 .product {
     
@@ -313,4 +310,27 @@ details > .faq-answer {
 .shop-header {
     font-size: 2em;
     
+}
+.shop-nav ul {
+    margin: -18px;
+    padding: 5%;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+}
+.shop-nav ul li {
+    list-style-type: none;
+    padding: 5%;
+}
+.shop-items {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: rgb(99, 90, 90);
+    position: relative;
+    left: 350px;
 }
