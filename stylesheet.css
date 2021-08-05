@@ -279,17 +279,19 @@ details > .faq-answer {
     width: 100vw;
     height: auto;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
+    background-color: rgb(99, 90, 90);
 }
 .product {
     
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    background-color: white;
 }
 .product img {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 .shop-container a {
@@ -304,4 +306,11 @@ details > .faq-answer {
 }
 .product h4 {
     font-size: 50%;
+}
+.product h3 {
+    font-size: 50%;
+}
+.shop-header {
+    font-size: 2em;
+    
 }
