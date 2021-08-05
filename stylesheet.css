@@ -353,7 +353,7 @@ details > .faq-answer {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
-    background-color: rgb(99, 90, 90);
+    /*background-color: rgb(99, 90, 90);*/
     position: relative;
     left: 350px;
 }
