@@ -117,10 +117,11 @@ nav .navbar-links li a {
     display: flex;
     background-color: rgb(25,25,25);
     width: 100%;
+    height: auto;
     color: white;
     text-align: center;
     justify-content: space-evenly;
-    padding: 60px 0 20px;
+    padding: 20px;
 }
 .contact-container {
     flex: 1;
@@ -182,7 +183,7 @@ nav .navbar-links li a {
       width: 60%;
       margin: auto;
       border-bottom: 1px solid;
-      height: 80vh;
+      height: auto;
 }
 .about-head {
       font-size: 2em;
@@ -246,10 +247,12 @@ nav .navbar-links li a {
       padding-top: 10%;
       margin: auto;
       width: 80%;
-      height: 100vh;
+      height: auto;
   }
 .terms p {
-    padding-top: 5%;
+    padding: 2%;
+    width: 80%;
+    margin: auto;
 }
 .terms h2 {
     padding-top: 1%;
