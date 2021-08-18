@@ -117,18 +117,15 @@ nav .navbar-links li a {
     display: flex;
     background-color: rgb(25,25,25);
     width: 100%;
-    height: auto;
     color: white;
-    text-align: center;
     justify-content: space-evenly;
-    padding: 20px;
-}
-.contact-container {
-    flex: 1;
-    flex-basis: 300px;
+    
 }
 .contact ul {
     list-style: none;
+}
+.contact li {
+    text-align: center;
 }
 .contact li a {
     text-decoration: none;
@@ -136,7 +133,6 @@ nav .navbar-links li a {
 }
 .contact li a:hover {
     text-decoration: underline;
-    color: white;
 }
 .news-header {
     margin: 5%;
