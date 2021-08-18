@@ -117,17 +117,24 @@ nav .navbar-links li a {
     display: flex;
     background-color: rgb(25,25,25);
     width: 100%;
+    margin: 0 auto; 
+    
     color: white;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+.contact-container {
+    width: 100%;
+    justify-content: center;
+}
+.contact-header {
+    text-align: center;
     
 }
-.contact ul {
+.contact-container ul {
     list-style: none;
-}
-.contact li {
     text-align: center;
 }
-.contact li a {
+.contact-container li a {
     text-decoration: none;
     color: white;
 }
