@@ -118,12 +118,10 @@ nav .navbar-links li a {
     background-color: rgb(25,25,25);
     width: 100%;
     margin: 0 auto; 
-    
     color: white;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .contact-container {
-    width: 100%;
     justify-content: center;
 }
 .contact-header {
