@@ -88,7 +88,7 @@ nav .navbar-links li a {
 #hero {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)), url(https://www.leafbuyer.com/blogs/content/uploads/2019/01/bong-in-front-of-sunset-on-the-beach.jpg) no-repeat center / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)), url(wine1.jpg) no-repeat center / cover;
 }
 .container {
     width: 90%;
@@ -98,8 +98,10 @@ nav .navbar-links li a {
     display: flex;
     align-items: center;
     justify-content: left;
-    /*   text-align: center; ugly af*/
     color: white;
+}
+.info {
+    margin-right: 200px;
 }
 .info h1 {
       font-size: 3.5em;
