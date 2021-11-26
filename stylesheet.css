@@ -138,6 +138,9 @@ nav .navbar-links li a {
     margin: 0 auto;
     padding: 5%;
 }
+.contact-container li {
+    padding-bottom: 1%;
+}
 .contact-container li a {
     text-decoration: none;
     color: white;
