@@ -135,8 +135,8 @@ nav .navbar-links li a {
 .contact-container ul {
     list-style: none;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    padding: 5%;
 }
 .contact-container li a {
     text-decoration: none;
